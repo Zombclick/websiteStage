@@ -1,4 +1,33 @@
+.status-window{
+    background-color: aqua;
+    flex-grow: 5;
+    border: 3px;
+    border-left: black;
+    border-right: black;
+}
+
+.status-maker{
+  margin: auto;
+  width: 85%;
+  padding: 10px;
+}
+
 .status-input{
-    width: 100%;
+    width: 80%;
     height: 100px;
+}
+
+
+.feed{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+}
+
+.status{
+    background-color: white;
+}
+
+.status-info > div{
+    
 }

@@ -37,18 +37,8 @@ body{
     display: flex;
 }
 
-.fakewindow > div{
-    border: 3px;
-    border-color: black;
-    flex-grow: 1;
-    overflow: auto;
-}
-
-.fakewindow > .statuswindow{
-    flex-grow: 5;
-    background-color: aqua;
-}
 .fakewindow > .sidewindow{
+    flex-grow: 1;
+    overflow: auto; 
     background-color: brown;
-   
 }

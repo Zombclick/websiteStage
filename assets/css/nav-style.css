@@ -10,6 +10,11 @@
     padding: .5rem 1rem;
 }
 
+.navstyle a:hover{
+    transition: 500ms;
+    background-color: lightgrey ;
+}
+
 .navitems{
     justify-content: start;
 }

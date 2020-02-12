@@ -1,3 +1,8 @@
+body{
+    overflow: hidden;
+}
+
+
 .navstyle{
     position: relative;
     display: -ms-flexbox;
@@ -24,3 +29,26 @@
     align-self: flex-end;
 }
 
+.fakewindow{
+    width: 100vw;
+    height: 100vh;
+    border: 3px;
+    border-color: black;
+    display: flex;
+}
+
+.fakewindow > div{
+    border: 3px;
+    border-color: black;
+    flex-grow: 1;
+    overflow: auto;
+}
+
+.fakewindow > .statuswindow{
+    flex-grow: 5;
+    background-color: aqua;
+}
+.fakewindow > .sidewindow{
+    background-color: brown;
+   
+}

@@ -4,15 +4,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./assets/css/nav-style.css">
+    <link rel="stylesheet" href="./assets/css/status-style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
 </head>
 <body>
     
+    <nav class="navstyle navbar-light bg-light">
+        <div class="navitems">
+            <a class="navbar-brand" href="#home">
+            <img src="./assets/img/Zletter.png" width="30" height="30" class="d-inline-block align-top">
+            Zombats    
+            </a>
+            <a class="left-nav navbar-brand" href="#profile"> Profile </a>
+            <a class="left-nav navbar-brand" href="#friends"> Friends </a>
+        </div>
+        <div class="loginitem">
+            <a class="navbar-brand" href="login">Login/Aanmelden</a>
+        </div>
+    </nav>
+    
 <div class="fakewindow">
-    <div class="friends-table"></div>
-    <div class="status-table"></div>
-    <div class="leaderboard-table"></div>
+    <div class="friends-table sidewindow"></div>
+    
+    
+    <div class="status-table statuswindow">
+
+        <input type="text" class="status-input" id='status-input'>
+        
+        <div class="feed">
+
+        </div>
+
+    </div>
+    
+    
+    <div class="leaderboard-table sidewindow"></div>
 </div>
 
 

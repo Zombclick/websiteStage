@@ -28,6 +28,23 @@
     background-color: white;
 }
 
+.status-info{
+    display: flex;
+    justify-content: flex-start;
+    margin: 10px;
+}
 .status-info > div{
-    
+
+}
+
+.icon{
+    width: 30px;
+    height: 30px;
+    filter: invert(100%);
+}
+
+
+.icon-counter{
+    width: 20px;
+    height: 20px;
 }

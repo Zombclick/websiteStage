@@ -1,6 +1,10 @@
+textarea{
+    resize: none;
+}
 .status-window{
+    
     background-color: aqua;
-    flex-grow: 5;
+    flex-grow: 3;
     border: 3px;
     border-left: black;
     border-right: black;
@@ -44,4 +48,10 @@
 .icon-counter{
     width: 20px;
     height: 20px;
+}
+
+.card-body > .status-comments{
+    padding: 50px;
+    width: 100%;
+    height: 100%;
 }

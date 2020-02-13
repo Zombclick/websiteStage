@@ -3,8 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./assets/css/nav-style.css">
-    <link rel="stylesheet" href="./assets/css/status-style.css">
+    <link rel="stylesheet" href="./assets/css/master.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
 </head>
@@ -25,7 +24,10 @@
     </nav>
     
 <div class="fakewindow">
-    <div class="friends-table sidewindow"></div>
+    
+    <div class="leaderboard-table sidewindow">
+        <span style="">Leaderboard</span>
+    </div>
     
     
     <div class="status-table status-window">
@@ -34,15 +36,64 @@
             <div class="input-group-prepend">
                 <button class="btn btn-light" id="btn-submit" type="submit">Submit</button>
             </div>    
-    </div>
+    </div>  
 
         <div class="feed">
-              
+            <div class="card">
+                <div class="card-header">
+                <!-- Need to add username (Username tag) -->
+                  Feed
+                </div>
+
+                <div class="card-body">
+                  <span><img src="./assets/img/like-icon.png" class="icon-counter"> Username </span> <br>  
+                <!-- Need to add smarty txt -->
+                  <span class="card-text">Im still ugly, i will do it better</span> <br>
+                 
+                    <div class="status-info">
+                        <div class="counter-like">
+                        <span>
+                        <img class="icon-counter" src="./assets/img/like-icon.png">
+                        <!--Like Counter Smarty --> 
+                        1
+                        </span>
+                        </div>
+                    
+                        <div class="counter-comments">
+                        <span>
+                        <img class="icon-counter" src="./assets/img/comment-icon.png">
+                        <!--Comment Counter Smarty -->
+                        1    
+                        </span>   
+                        </div>
+                    </div>
+        
+                  <a href="#" class="btn btn-dark"> <img class="icon" src="./assets/img/like-icon.png"> Like</a>
+                  <a href="#" class="btn btn-dark"> <img class="icon" src="./assets/img/comment-icon.png">Comment</a>
+                    
+                    <div class="status-comments">
+                        
+                    </div>
+                </div>
+</div>
+
         </div>
     
     </div>
 
-    <div class="leaderboard-table sidewindow"></div>
+    <div class="friends-table sidewindow">
+        
+
+            <span style="position: relative; text-align: center; background-color: white; border-style: solid; border-color: black;">Friends</span>
+    
+
+        <div>
+            <a class="friend-user">
+                <img  class="icon" src="./assets/img/like-icon.png">
+                Username
+            </a>
+        </div>
+    </div>
 </div>
 
 

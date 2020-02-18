@@ -1,0 +1,22 @@
+.friend-user{
+    padding: 3px;
+}
+
+.friends-table{
+ display: flex;
+ flex-direction: column;
+}
+
+.friends-table > div{
+    width: 100%;
+    border-top: 2px;
+    border-bottom: 2px;
+    border-color: black;
+    background-color: white;
+}
+
+.friends-table > div:hover{
+    cursor: pointer;
+    background-color: lightblue;
+    transition: 500ms;
+}

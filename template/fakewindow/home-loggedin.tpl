@@ -16,8 +16,8 @@
 <div class="status-table statuswindow">
     
     <div class='statuswindow-inside'>
-    
-    
+
+
     </div>
     
 </div>

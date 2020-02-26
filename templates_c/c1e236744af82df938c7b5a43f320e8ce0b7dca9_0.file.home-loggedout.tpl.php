@@ -1,6 +1,33 @@
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<?php
+/* Smarty version 3.1.34-dev-7, created on 2020-02-25 11:49:22
+  from 'C:\xampp\htdocs\Website-Leon(1)\Website\template\fakewindow\home-loggedout.tpl' */
+
+/* @var Smarty_Internal_Template $_smarty_tpl */
+if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
+  'version' => '3.1.34-dev-7',
+  'unifunc' => 'content_5e54fbb267fb93_04674303',
+  'has_nocache_code' => false,
+  'file_dependency' => 
+  array (
+    'c1e236744af82df938c7b5a43f320e8ce0b7dca9' => 
+    array (
+      0 => 'C:\\xampp\\htdocs\\Website-Leon(1)\\Website\\template\\fakewindow\\home-loggedout.tpl',
+      1 => 1582279058,
+      2 => 'file',
+    ),
+  ),
+  'includes' => 
+  array (
+  ),
+),false)) {
+function content_5e54fbb267fb93_04674303 (Smarty_Internal_Template $_smarty_tpl) {
+?>  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <?php echo '<script'; ?>
+ src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"><?php echo '</script'; ?>
+>
+  <?php echo '<script'; ?>
+ src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"><?php echo '</script'; ?>
+>
 
   
 <div class="container">
@@ -38,3 +65,5 @@
     </a>
   </div>
 </div>
+<?php }
+}

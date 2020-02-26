@@ -5,14 +5,14 @@
                 </div>
 
                 <div class="card-body">
-                <!-- Need to add smarty txt -->
+                <!-- Need to add smarty txt or User content -->
                   <p class="card-text">SIm still ugly, i will do it better</p> <br>
                  
                     <div class="status-info">
                         <div class="counter-like">
                         <span>
                         <img class="icon-counter" src="./assets/img/like-icon.png">
-                        <!--Like Counter Smarty --> 
+                        <!--Like Counter Smarty DB Points--> 
                         1
                         </span>
                         </div>
